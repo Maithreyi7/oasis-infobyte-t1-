@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://img.freepik.com/free-vector/gradient-connection-background_52683-116380.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+.login-container {
+    text-align: center;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+h2{
+    color: aqua;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+#error-msg {
+    color: red;
+}
